@@ -1,7 +1,17 @@
-.m-5 {
-  margin: 5px;
+.container {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+  & > div {
+    margin-bottom: 20px;
+  }
 }
 
-mat-grid-tile {
-  background: blue;
+mat-card  {
+  width: 400px;
 }
