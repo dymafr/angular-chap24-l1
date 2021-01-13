@@ -1,16 +1,21 @@
-<mat-toolbar color="primary" style="justify-content:center">
-	<span>Mon Application</span>
-</mat-toolbar>
-
-<mat-selection-list #food>
-	<mat-list-option value="pain">Pain</mat-list-option>
-	<mat-list-option value="pates">Pâtes</mat-list-option>
-	<mat-list-option value="pizza">Pizza</mat-list-option>
-</mat-selection-list>
-
-<mat-grid-list cols="2" rowHeight="2:1" gutterSize="10">
-	<mat-grid-tile>1</mat-grid-tile>
-	<mat-grid-tile>2</mat-grid-tile>
-	<mat-grid-tile>3</mat-grid-tile>
-	<mat-grid-tile>4</mat-grid-tile>
-</mat-grid-list>
+<div class="container">
+	<mat-card>
+		<mat-card-header>
+			<mat-card-title>Napoléon Bonaparte</mat-card-title>
+			<mat-card-subtitle>Empereur des français</mat-card-subtitle>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Francois_Gerard_-_Napoleon_Ier_en_costume_du_Sacre.jpg/440px-Francois_Gerard_-_Napoleon_Ier_en_costume_du_Sacre.jpg" mat-card-avatar>
+		</mat-card-header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Napoleon_at_the_Battle_of_Rivoli.jpg" mat-card-image>
+    <mat-card-content>
+      <p>
+        Napoléon Bonaparte, né le 15 août 1769 à Ajaccio et mort le 5 mai 1821 sur l'île Sainte-Hélène, est
+        un
+        militaire et homme d'État français, premier empereur des Français, du 18 mai 1804 au 6 avril 1814 et
+        du
+        20 mars au 22 juin 1815, sous le nom de Napoléon Ier.
+      </p>
+    </mat-card-content>
+    <mat-card-actions align="end">
+    </mat-card-actions>
+	</mat-card>
+</div>
