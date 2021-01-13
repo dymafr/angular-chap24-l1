@@ -1,5 +1,4 @@
-import { Component, OnInit, ViewChild } from "@angular/core";
-import { MatSelectionList } from "@angular/material/list";
+import { Component, OnInit } from "@angular/core";
 
 @Component({
   selector: "my-app",
